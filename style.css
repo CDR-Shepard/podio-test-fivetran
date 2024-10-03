@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f5f5f7;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+button[disabled] {
+  cursor: not-allowed; /* Shows a 'not-allowed' cursor on hover to indicate it is disabled */
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 60px);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #e1e1e6;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 300px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.logo-area {
+    height: 100px; /* Space for logo */
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color: white;
+    background-color: #007aff; /* Apple blue */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
